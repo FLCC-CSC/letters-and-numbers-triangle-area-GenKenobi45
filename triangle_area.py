@@ -1,8 +1,9 @@
 # FILE NAME - triangle_area.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Yusuf Khan 
+# DATE: 02/13/25
+# BRIEF DESCRIPTION: Program that oputputs the area of a triangle based on the height and 
+# base lengths entered by the user.
 
 
 
@@ -14,18 +15,15 @@
 
 
 
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+def find_area():   
+    height = float(input('Enter the height: '))
+    base = float(input('Enter the base: '))
+    area = 0.5*base*height
+    print('The area of the triangle is ', area)
+find_area()
+
 ########### END YER CODE ABOVE THIS LINE ###########
 
 
@@ -66,12 +64,14 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
-
-
+I feel that the second line of this code kicks off the process becasue it is the first line 
+asking for user input, and without that input the program would not be able to output a 
+correct answer.
 
 2. What was the hardest part of this lab?
 
+The hardest of the part of this lab was to remeber to use the float funtion to make 
+sure the integer can be multiplied by the text.
 
 
 
